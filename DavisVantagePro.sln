@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drg.DavisVantagePro.Common", "Drg.DavisVantagePro.Common\Drg.DavisVantagePro.Common.csproj", "{0CF8C017-5D7F-431F-8618-633F27F25215}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{A877B0C1-A9B6-4CCD-AE0A-D04C6008F49D}"
+	ProjectSection(SolutionItems) = preProject
+		Readme.txt = Readme.txt
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnitTests", "UnitTests\UnitTests.csproj", "{F8B9AB22-392F-4DAF-8B6B-8E817E6D5EDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drg.TestMeteoService", "Drg.TestMeteoService\Drg.TestMeteoService.csproj", "{DE961F5B-05CA-4C14-9567-CB43A58C4064}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drg.CommonData", "Drg.CommonData\Drg.CommonData.csproj", "{E4AE585A-654C-4A2C-85DB-F87983EF86AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Drg.TestMeteoDriver", "Drg.TestMeteoDriver\Drg.TestMeteoDriver.csproj", "{AAE7A8CC-2E37-4718-8384-525DB388B1CB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0CF8C017-5D7F-431F-8618-633F27F25215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0CF8C017-5D7F-431F-8618-633F27F25215}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0CF8C017-5D7F-431F-8618-633F27F25215}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0CF8C017-5D7F-431F-8618-633F27F25215}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8B9AB22-392F-4DAF-8B6B-8E817E6D5EDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8B9AB22-392F-4DAF-8B6B-8E817E6D5EDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8B9AB22-392F-4DAF-8B6B-8E817E6D5EDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8B9AB22-392F-4DAF-8B6B-8E817E6D5EDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DE961F5B-05CA-4C14-9567-CB43A58C4064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DE961F5B-05CA-4C14-9567-CB43A58C4064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DE961F5B-05CA-4C14-9567-CB43A58C4064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DE961F5B-05CA-4C14-9567-CB43A58C4064}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4AE585A-654C-4A2C-85DB-F87983EF86AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4AE585A-654C-4A2C-85DB-F87983EF86AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4AE585A-654C-4A2C-85DB-F87983EF86AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4AE585A-654C-4A2C-85DB-F87983EF86AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AAE7A8CC-2E37-4718-8384-525DB388B1CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AAE7A8CC-2E37-4718-8384-525DB388B1CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AAE7A8CC-2E37-4718-8384-525DB388B1CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AAE7A8CC-2E37-4718-8384-525DB388B1CB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
